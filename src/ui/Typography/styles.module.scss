@@ -1,0 +1,29 @@
+// Extends
+// ==============================
+.header-basic {
+  font-weight: 400;
+  text-shadow:
+    1px 1px 1px var(--black-one),
+    1px -1px 1px var(--black-one),
+    -1px 1px 1px var(--black-one),
+    -1px -1px 1px var(--black-one);
+}
+
+.paragraph-basic {
+  margin: 0;
+  font-weight: 400;
+}
+
+@for $i from 1 through 6 {
+  .header-h#{$i}-primary {
+    @extend .header-basic;
+    color: var(--white-one);
+  }
+}
+
+.paragraph {
+  &-primary {
+    @extend .paragraph-basic;
+    color: var(--white-one);
+  }
+}

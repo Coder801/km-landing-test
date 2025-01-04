@@ -1,0 +1,14 @@
+.container {
+  box-sizing: border-box;
+  border: 1px solid var(--white-one);
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 30px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 15px;
+  }
+}

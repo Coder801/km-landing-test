@@ -1,0 +1,21 @@
+:root {
+  // Backgrounds
+  --background-one: #4c9540;
+  --background-two: #48853d;
+  --background-three: #3a963d;
+
+  // Color
+  --white-one: #ffffff;
+  --white-two: #d2d1d1;
+  --black-one: #000000;
+
+  //Fonts
+  --fontGreekFreak: 'Greek-Freak', sans-serif;
+  --fontInter: 'Inter', serif;
+}
+
+//Media Queries
+$small-screen: 480px;
+$medium-screen: 768px;
+$large-screen: 1024px;
+$xlarge-screen: 1440px;
