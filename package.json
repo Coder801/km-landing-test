@@ -9,11 +9,8 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "engines": {
-    "node": "18.x",
-    "npm": "8.x"
-  },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.9.2",
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
     "lodash": "^4.17.21",
